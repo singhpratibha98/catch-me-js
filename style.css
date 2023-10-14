@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+#box {
+    width: 10vw;
+    height: 10vw;
+    background-color: #b916f4;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%;
+    box-shadow:2px 4px 0.9;
+    
+}
+
+#box p {
+    font-size: 1.7vw;
+    color: white;
+}
+
